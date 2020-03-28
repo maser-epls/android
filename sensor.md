@@ -10,8 +10,6 @@ class XXX : XXX, SensorEventListener {
     lateinit var mSensorManager: SensorManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        SensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
-        
         mSensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
         
         <<Register Sensor.TYPE_MAGNETIC_FIELD >>
